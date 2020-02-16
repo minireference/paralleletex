@@ -1,0 +1,140 @@
+
+%=======================================================================  solving_equations
+%% SHARED001
+\section{Résoudre les equations}
+\label{sec:solving_equations}
+
+	%% PAR001
+	La plupart des techniques mathématiques peuvent être ramenées à la manipulation et à la résolution d'équations.
+	Résoudre une équation, c'est trouver la valeur de l'inconnue dans l'équation.
+	% COMMENT: Pour mémoire, une remarque déjà faite: dans cette introduction on annonce, au moins implicitement avec le singulier,
+	% qu'il va y avoir UNE solution et crac! dès le premier exemple il y en a deux.
+	% Il vaudrait peut-être mieux admettre d'entrée de jeu la possibilité de plusieurs solutions.
+	% 		@Gérard: Je pense que c'est correct comme ça---ce serait trop compliqué à dire "le ou les nombres" tout de suite.
+	%				Gardez en tête que les gens on la phobie des math donc en ne veux que le début soit aussi simple que possible.
+
+	%% PAR002
+	Regardez ceci:
+	%%SHARED002
+	\[
+	 	x^2-4=45.
+	\]
+	%% PAR003
+	Résoudre cette équation, c'est répondre à la question ‹‹Quelle est la valeur de $x$?››
+	Dit de façon plus précise,
+	nous voulons trouver le nombre que l'on peut mettre à la place de $x$ dans l'équation pour que l'égalité soit vraie. 
+	En d'autres termes, on demande :
+	\[
+	 	\text{‹‹Quel nombre multiplié par lui-même moins 4 donne 45?››}
+	\]
+	Ça fait un peu lourd, non? 
+	Pour éviter ce verbiage,
+	les mathématiciens emploient souvent des symboles spéciaux pour représenter les opérations mathématiques.
+	Le problème est que ces symboles peuvent être déroutants.
+	Quelquefois, même les concepts mathématiques les plus simples sont inaccessibles si on ne connaît pas la signification des symboles.
+	
+	%% PAR004
+	Chers lecteurs, chères lectrices, quels sont vos sentiments à l'égard des maths?
+	Est-ce qu'elles vous effraient?
+	Êtes-vous paniqué parce que vous pensez que ça va être trop difficile pour vous?
+	Détendez-vous, mes frères et sœurs. Votre réaction est normale.
+	Personne ne peut, par miracle, deviner immédiatement la solution d'une équation.
+	Pour trouver la solution, vous devez décomposer le problème et procéder étape par étape.
+	Faisons ce chemin ensemble.
+
+	%% PAR005
+	Pour trouver $x$,
+	nous pouvons manipuler l'équation initiale pour la transformer en une équation différente qui soit aussi vraie que la première,
+	mais se présente sous la forme: 
+	\[ 
+		x \ = \textrm{ rien que des nombres.}
+	\]
+	%% PAR006
+	C'est ça qu'on appelle \emph{résoudre} une équation.
+	L'équation est résolue parce que l'inconnue est isolée d'un seul côté,
+	tandis que les nombres sont regroupés de l'autre côté.
+	Vous pouvez entrer dans votre calculateur les nombres qui apparaissent du côté droit de l'équation et 
+	obtenir la valeur numérique de $x$.
+
+	%% PAR007
+	Avant de continuer notre discussion, remarquons ceci:
+	le signe d'égalité ($=$) signifie que tout ce qui est à gauche du signe $=$ est égal à tout ce qui est à droite.
+        Pour que cette qualité  du signe $=$ reste vraie,
+        \textbf{pour tout changement que l'on fait du côté gauche de l'équation on doit faire le même changement du côté droit}. 
+	Gardons présente à l'esprit la règle suivante:
+	pour trouver $x$ on doit manipuler l'équation originale jusqu'à obtenir la forme finale,
+	en simplifiant pas à pas jusqu'à ce qu'on ne puisse plus simplifier davantage.
+	Les manipulations que nous faisons transforment une équation vraie en une autre équation vraie. %qui a la même signification.
+
+	%% PAR009
+	Dans notre exemple,
+	la première étape de simplification sera d'ajouter le nombre 4 aux deux côtés de l'équation:
+	%% SHARED003
+	\[
+	 	x^2-4  +4  		=	45    +4,
+	\]
+	qui se simplifie en
+	\[
+		x^2 	 		=	49.
+	\]
+
+	%% PAR010
+	\noindent
+	Maintenant l'expression paraît plus simple, non?
+	Pourquoi ai-je fait cette opération? 
+	Je voulais ‹‹annuler›› les effets de l'opération $-4$.
+	Nous  annulons une opération en faisant l'opération \emph{inverse}.
+	Lorsque l'opération est la soustraction d'une certaine quantité, l'opération inverse est l'addition de la même quantité.
+	Nous en apprendrons plus au sujet des fonctions inverses dans la section~\ref{sec:functions_and_their_inverses}.
+
+	%% PAR011
+	Nous approchons de notre but: \emphindexdef{isoler} $x$ d'un côté de l'équation,
+	ne laissant que des nombres de l'autre côté.
+	Dans l'étape suivante on annule l'opération élever au carré $x^2$.
+	L'opération inverse d'élever un nombre au carré ($x^2$) est de prendre sa racine carrée $\sqrt{\phantom{a}\ }$.
+	C'est donc ce que nous faisons maintenant et nous obtenons:
+	%% SHARED004
+	\[ 
+	   \sqrt{x^2} 		= 	\sqrt{49}.
+	\]
+	%% PAR012
+	Observez que nous avons pris la racine carrée des deux côtés de l'équation.
+	Si nous n'avions pas fait la même opération des deux côtés, nous n'aurions plus l'égalité!
+
+	%% PAR013
+	L'équation $\sqrt{x^2}= \sqrt{49}$ se simplifie en: 
+	%% SHARED005
+	\[
+	 	|x|	= 	7.
+	\]
+	%% PAR014
+	Que représentent ces barres verticales autour de $x$?
+	La notation $|x|$ signifie \emph{valeur absolue} de $x$,											\index{valeur absolue}
+	qui est ce que l'on obtient à partir de $x$ lorsqu'on ignore le signe qui indique si $x$ est positif ou négatif. 
+	Par exemple $|5|=5$ mais $|-5|=5$ aussi.
+	L'équation $|x|=7$ veut dire que $x=7$ et $x=-7$ satisfont tous deux l'équation $x^2 = 49$.
+	Sept au carré est $49$, $7^2=49$, et $-7$ au carré est aussi $49$, 
+	$(-7)^2 = 49$,
+	parce que les deux signes moins s'annulent l'un, l'autre dans la multiplication $(-7)(-7)=49$.
+
+	%% PAR015
+	Les solutions de l'équation $x^2-4=45$ sont donc
+	%% SHARED006
+	\[
+	 	x  = 7 \qquad \textrm{et} \qquad   x=  - 7.
+	\]
+	%% PAR016
+	Eh oui, il y a \emph{deux} réponses possibles!
+	Vous pouvez vérifier en faisant le calcul que les deux valeurs de $x$ ci-dessus satisfont l'équation initiale $x^2-4=45$.
+
+	\bigskip
+
+	%% PAR017
+	Si vous vous sentez à l'aise avec toutes les notions de maths utilisées dans cette section
+	et si vous pensez que vous auriez pu résoudre l'équation $x^2-4=45$ par vous-même,
+	alors vous pouvez vous contenter de regarder rapidement ce chapitre.
+	Si, au contraire, vous ne vous sentez pas bien à l'aise dans les étapes de la résolution ci-dessus alors ce chapitre est pour vous!
+	Dans les sections suivantes nous allons réviser les concepts essentiels des maths dont vous aurez besoin pour maîtriser le reste de ce livre.
+	
+	Pour commencer laissez moi vous parler des différents types de nombres.
+

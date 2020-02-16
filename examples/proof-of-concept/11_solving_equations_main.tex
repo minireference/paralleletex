@@ -1,0 +1,56 @@
+\documentclass[oneside,11pt]{book}
+
+\usepackage[
+    paperwidth=11in,
+    paperheight=8.5in,
+    inner=0.6in,
+    outer=0.6in,
+    % bindingoffset=0.15in,
+    top=0.6in,
+    bottom=0.6in]{geometry}  
+%\usepackage{expex}
+\usepackage{paracol}
+%    \twosided[pc]
+
+
+\usepackage[english,french]{babel}
+\selectlanguage{english}
+
+\input{minireference_FR.hdr.tex}
+
+
+%\usepackage{polyglossia}
+%\setdefaultlanguage{english}
+%\setotherlanguage{french}
+
+%\newfontfamily\frenchfont{Arial}
+%\newfontfamily\englishfont{Arial}
+
+\hyphenpenalty 200 %helps to force justification of skinny column
+\tolerance 2000 %helps to force justification of skinny column
+
+%\lingset{
+%    everygla=\Large, 
+%    everyglb=\scriptsize\englishfont\it,
+%    everyglc=\scriptsize\englishfont,
+%    glwordalign=center,
+%    glhangindent=0em,
+%    glrightskip=0pt,
+%    glhangstyle=none,
+%    %glspace=0.5em plus 3em minus 0.15em,   
+%    aboveglbskip=-0.7ex,%adjust space between gla & glb
+%    aboveglcskip=-0.7ex %adjust space between glb & glc
+%}
+
+\columnratio{0.53}
+\setlength{\columnsep}{3em}
+
+\begin{document}
+
+
+\setcounter{chapter}{1}
+
+\input{11_solving_equations_FR_en.tex}
+
+
+\end{document}
