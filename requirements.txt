@@ -1,0 +1,2 @@
+TexSoup>=0.2.0
+more-itertools>=8.2.0

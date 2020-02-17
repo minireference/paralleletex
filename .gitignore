@@ -1,3 +1,14 @@
+# Initial samples
+examples/samples
+
+# Upstream code
+examples/TexSoup
+
+# Too large to commit...
+examples/books
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +138,26 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# LaTeX
+.DS_Store
+*.swp
+*.pyc
+*.m~
+*.vrb
+*.aux
+*.end
+*.bbl
+*.blg
+*.log
+*.toc
+*.synctex.gz
+*.ilg
+*.ind
+*.out
+*.nav
+*.snm
+*.lot
+*.lof
+*.thm
+*.idx
