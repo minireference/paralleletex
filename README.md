@@ -30,3 +30,29 @@ TODO:
     pdflatex bilingual.tex
 
 
+### Examples
+
+
+    ./mkparalleltext.py \
+        --left    examples/sections/11_solving_equations_FR.tex \
+        --right   examples/sections/11_solving_equations_EN.tex \
+        --outpath examples/sections/11_solving_equations_parcols.tex
+
+    ./mkparalleltext.py \
+        --left    examples/sections/12_numbers_FR.tex \
+        --right   examples/sections/12_numbers_EN.tex \
+        --outpath examples/sections/12_numbers_parcols.tex
+
+    ./mkparalleltext.py \
+        --left    examples/sections/13_number_representations_FR.tex \
+        --right   examples/sections/13_number_representations_EN.tex \
+        --outpath examples/sections/13_number_representations_parcols.tex
+
+
+    ./mkparalleltext.py \
+        --left=   examples/sections/14_variables_FR.tex \
+        --right   examples/sections/14_variables_EN.tex \
+        --outpath examples/sections/14_variables_parcols.tex
+
+
+13_number_representations_FR.tex
